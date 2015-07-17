@@ -4,7 +4,16 @@
       <block type="multimedia_displaybmp" id="1">
         <field name="BMP">ASE</field>
         <next>
-          <block type="oled_cleardisplay" id="63"></block>
+          <block type="robot_delay" id="66" inline="true">
+            <value name="DELAY">
+              <block type="math_number" id="73">
+                <field name="NUM">500</field>
+              </block>
+            </value>
+            <next>
+              <block type="oled_cleardisplay" id="63"></block>
+            </next>
+          </block>
         </next>
       </block>
     </next>
