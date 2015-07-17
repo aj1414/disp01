@@ -1,5 +1,9 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="multimedia_displaybmp" id="1" x="36" y="63">
-    <field name="BMP">ASE</field>
+  <block type="oled_cleardisplay" id="48" x="46" y="39">
+    <next>
+      <block type="multimedia_displaybmp" id="1">
+        <field name="BMP">ASE</field>
+      </block>
+    </next>
   </block>
 </xml>
